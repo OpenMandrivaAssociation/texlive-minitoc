@@ -1,3 +1,9 @@
+# revision 16836
+# category Package
+# catalog-ctan /macros/latex/contrib/minitoc
+# catalog-date 2009-05-26 00:38:29 +0200
+# catalog-license lppl
+# catalog-version 60
 Name:		texlive-minitoc
 Version:	60
 Release:	1
@@ -840,6 +846,7 @@ fixed names).
 %doc %{_texmfdistdir}/source/latex/minitoc/minitoc-fr.dtx
 %doc %{_texmfdistdir}/source/latex/minitoc/minitoc.dtx
 %doc %{_texmfdistdir}/source/latex/minitoc/minitoc.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -850,3 +857,5 @@ fixed names).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex makeindex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
