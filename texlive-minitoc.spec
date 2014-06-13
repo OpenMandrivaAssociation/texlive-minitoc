@@ -6,7 +6,7 @@
 # catalog-version 60
 Name:		texlive-minitoc
 Version:	60
-Release:	6
+Release:	7
 Summary:	Produce a table of contents for each chapter, part or section
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/minitoc
