@@ -1,5 +1,5 @@
 Name:		texlive-minitoc
-Version:	61
+Version:	62
 Release:	1
 Summary:	Produce a table of contents for each chapter, part or section
 Group:		Publishing
