@@ -1,6 +1,6 @@
 Name:		texlive-minitoc
 Version:	62
-Release:	1
+Release:	2
 Summary:	Produce a table of contents for each chapter, part or section
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/minitoc
