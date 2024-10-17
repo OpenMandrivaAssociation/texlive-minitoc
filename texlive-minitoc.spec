@@ -3,7 +3,7 @@ Version:	61719
 Release:	2
 Summary:	Produce a table of contents for each chapter, part or section
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/minitoc
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/minitoc
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/minitoc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/minitoc.doc.r%{version}.tar.xz
